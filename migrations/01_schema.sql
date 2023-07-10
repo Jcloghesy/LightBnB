@@ -1,6 +1,12 @@
 -- ========================================================================= --
 -- ============================  01_SCHEMA.SQL  ============================ -- 
 
+--  Error Handling - Drop Table --------------------------------------------
+DROP TABLE IF EXISTS users CASCADE;
+DROP TABLE IF EXISTS properties CASCADE;
+DROP TABLE IF EXISTS reservations CASCADE;
+DROP TABLE IF EXISTS property_reviews CASCADE;
+
 -- Users Table                  --------------------------------------------
 CREATE TABLE users (
   id SERIAL PRIMARY KEY NOT NULL,
