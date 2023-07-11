@@ -22,24 +22,24 @@
       .catch(err => console.log(err));
 
 //  =====================          USERS          ===========================   
-//  getUserWithEmail    *-------------------------------------------------- 
+//  getUserWithEmail     *-------------------------------------------
   /**  
    * Get a single user from the database given their email
    * @param {String} email The email of the user
    * @return {Promise<{}>} A promise to the user
    */
   const getUserWithEmail = function (email) {
-    let resolvedUser = null;
-    for (const userId in users) {
-      const user = users[userId];
-      if (user?.email.toLowerCase() === email?.toLowerCase()) {
-        resolvedUser = user;
-      }
-    }
-    return Promise.resolve(resolvedUser);
+    return pool
+      .query(`SELECT * FROM users WHERE email = $1`, [email])
+      .then((user) => {
+        console.log(user.rows[0]);
+        return user.rows[0] || null;
+      })
+      .catch((err) => {
+        console.log(err.message);
   };
 
-//  getUserWithId       *-------------------------------------------------- 
+//  getUserWithId        *-------------------------------------------------- 
   /**
    * Get a single user from the database given their id
    * @param {string} id The id of the user
