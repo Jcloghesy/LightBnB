@@ -3,27 +3,27 @@
 //  =========================================================================
 
 //  =====================   REQUIRED / IMPORTS    =========================== 
-  //  required             --------------------------------------------------  
-    const properties = require("./json/properties.json");
-    const users = require("./json/users.json");
-    const { Pool } = require("pg");
+//  required            *--------------------------------------------------  
+  const properties = require("./json/properties.json");
+  const users = require("./json/users.json");
+  const { Pool } = require("pg");
 
-  //  new pool             -------------------------------------------------- 
-    const pool = new Pool({
-      user     : "labber",
-      password : "labber",
-      host     : "localhost",
-      database : "lightbnb",
-    });
+//  new pool            *-------------------------------------------------- 
+  const pool = new Pool({
+    user     : "labber",
+    password : "labber",
+    host     : "localhost",
+    database : "lightbnb",
+  });
 
-  //  pool.query           -------------------------------------------------- 
+   /*//  pool.query     *-------------------------------------------------- 
     pool.query(`SELECT title FROM properties LIMIT 10;`)
       .then(response => { console.log(response) })
       .catch(err => console.log(err));
     */
 
 //  =====================          USERS          ===========================   
-//  getUserWithEmail     *-------------------------------------------
+//  getUserWithEmail    *--------------------------------------------------
   /**  
    * Get a single user from the database given their email
    * @param {String} email The email of the user
@@ -41,7 +41,7 @@
       });
   };
 
-//  getUserWithId        *-------------------------------------------------- 
+//  getUserWithId       *-------------------------------------------------- 
   /**
    * Get a single user from the database given their id
    * @param {string} id The id of the user
@@ -203,11 +203,10 @@
       console.log(err.message)
     });
   };
-  
-  
+
 
 //  =====================     MODULE EXPORTS      ===========================  
-//  module.exports      -------------------------------------------------- 
+//  module.exports     *-------------------------------------------------- 
   module.exports = {
     getUserWithEmail,
     getUserWithId,
@@ -216,7 +215,6 @@
     getAllProperties,
     addProperty,
   };
-
 
 //  =========================================================================
 //  =========================================================================
