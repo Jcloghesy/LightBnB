@@ -16,7 +16,7 @@
       database : "lightbnb",
     });
 
-  //  pool.query          -------------------------------------------------- 
+  //  pool.query           -------------------------------------------------- 
     pool.query(`SELECT title FROM properties LIMIT 10;`)
       .then(response => { console.log(response) })
       .catch(err => console.log(err));
@@ -59,20 +59,22 @@
   };
 
 //  addUser             *--------------------------------------------------- 
-      const getUserWithId = function (id) {
-//  addUser             --------------------------------------------------- 
   /**
    * Add a new user to the database
    * @param {{name: string, password: string, email: string}} user
    * @return {Promise<{}>} A promise to the user
    */
   const addUser = function (user) {
-    const userId = Object.keys(users).length + 1;
-    user.id = userId;
-    users[userId] = user;
-    return Promise.resolve(user);
+    return pool
+      .query(`INSERT INTO users (name, email, password) VALUES ($1, $2, $3) RETURNING *`, [user.name, user.email, user.password])
+      .then((user) => {
+        console.log(user.rows[0]);
+      return user.rows[0];
+    })
+    .catch((err) => {
+      console.log(err.message);
+    });
   };
-
 
 //  =====================       RESERVATIONS      ===========================
 //  getAllReservations  *-------------------------------------------------- 
