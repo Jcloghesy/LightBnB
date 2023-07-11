@@ -16,6 +16,11 @@
       database : "lightbnb",
     });
 
+  //  pool.query          -------------------------------------------------- 
+    pool.query(`SELECT title FROM properties LIMIT 10;`)
+      .then(response => { console.log(response) })
+      .catch(err => console.log(err));
+
 //  =====================          USERS          ===========================   
 //  getUserWithEmail    *-------------------------------------------------- 
   /**  
