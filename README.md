@@ -8,7 +8,7 @@ The application allows a homeowners to advertise and book
 rentals and allows vacationer to easily find an book the perfect place to stay while on vacation. 
 
 
-[properties][properties] 
+[properties][properties]
 [createListing][createListing]
 
 This project is built on a template supplied by [lighthouse labs][Lighthouse Labs - GitHub]
@@ -20,15 +20,18 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
 - [LIGHTBNB PROJECT](#lightbnb-project)
   - [INTRODUCTION](#introduction)
   - [TABLE OF CONTENT](#table-of-content)
-- [USAGE](#usage)
-    - [INSTALLATION: Repository \& Dependencies](#installation-repository--dependencies)
-    - [WEB SERVER: Launch \& View Application in Browser](#web-server-launch--view-application-in-browser)
-  - [FUNCTIONALITY](#functionality)
-- [FEATURES](#features)
-- [FILE STRUCTURE](#file-structure)
-    - [TECHNOLOGIES EMPLOYED: Home Page \& Repository / Wiki](#technologies-employed-home-page--repository--wiki)
+  - [USAGE](#usage)
+    - [INSTALLATION: REPOSITORY \& DEPENDENCIES](#installation-repository--dependencies)
+    - [LAUNCH WEB SERVER \& VIEW IN BROWSER](#launch-web-server--view-in-browser)
+  - [FEATURES \& FUNCTIONALITY](#features--functionality)
+    - [FEATURES](#features)
+    - [TECHNOLOGIES EMPLOYED](#technologies-employed)
+    - [TECHNOLOGIES EMPLOYED](#technologies-employed-1)
     - [ENTITY RELATIONSHIP DIAGRAMS (ERDs): Created \& Supplied](#entity-relationship-diagrams-erds-created--supplied)
     - [FILE AND FOLDERS](#file-and-folders)
+  - [FILE AND FOLDERS](#file-and-folders-1)
+  - [FILE AND FOLDERS](#file-and-folders-2)
+- [properties: /docs/properties.png](#properties-docspropertiespng)
 
 &nbsp;
 
