@@ -12,9 +12,18 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
 
 ## TABLE OF CONTENT
 
+- [LIGHTBNB PROJECT](#lightbnb-project)
+  - [INTRODUCTION](#introduction)
+  - [TABLE OF CONTENT](#table-of-content)
 - [USAGE](#usage)
+    - [INSTALLATION: Repository \& Dependencies](#installation-repository--dependencies)
+    - [WEB SERVER: Launch \& View Application in Browser](#web-server-launch--view-application-in-browser)
+  - [FUNCTIONALITY](#functionality)
 - [FEATURES](#features)
 - [FILE STRUCTURE](#file-structure)
+    - [TECHNOLOGIES EMPLOYED: Home Page \& Repository / Wiki](#technologies-employed-home-page--repository--wiki)
+    - [ENTITY RELATIONSHIP DIAGRAMS (ERDs): Created \& Supplied](#entity-relationship-diagrams-erds-created--supplied)
+    - [FILE AND FOLDERS](#file-and-folders)
 
 &nbsp;
 
@@ -77,6 +86,37 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
        detailed information (type, amenities, location, pricing, availability)
 
 &nbsp;
+
+
+### TECHNOLOGIES EMPLOYED
+    
+| Home Page                     | Repository / Wiki               |
+|  :--:                         |  :--:                           |
+|  [CSS][CSS]                   |  [CSS.W3][CSS.W3]               | <br>
+|  [HTML][HTML]                 |  [HTML.w3][HTML.w3]             | <br>
+|  [JavaScript][JavaScript]     |  [JavaScript.w3][JavaScript.w3] | <br>
+|  [Node.js][node.org]          |  [`Node.js`][node.git]          | <br>
+|  [Express][express.git]       |  [`Express`][express.git]       | <br>
+|  [PostgreSQL][PostgreSQL.org] |  [PostgreSQL][PostgreSQL]       | <br
+
+***[back to top](#table-of-content)***
+&nbsp;
+
+
+### ENTITY RELATIONSHIP DIAGRAMS (ERDs): Created & Supplied
+
+  1. Developed by Student (using Lucidcharts online) <br>
+    [diagramERDStudent][diagramERDStudent] 
+  1. Provide by LHL  
+    [diagramERDSLhl][diagramERDLhl] <br>
+  
+  (screen captures of both ERD diagrams located in docs folder)
+
+***[back to top](#table-of-content)***
+&nbsp;
+
+
+### FILE AND FOLDERS 
 
 ## FILE AND FOLDERS 
 
@@ -149,6 +189,10 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
 [Lighthouse Labs - GitHub]: https://github.com/lighthouse-labs
 
 <!-- Images - Screen Captures & Logos, etc  -->
-[mainMedium]: /docs/mainMedium.png
-
-
+[properties]: /docs/properties.png
+[diagramERDStudent]: /docs/diagramERDStudent.png
+[diagramERDLhl]: /docs/diagramERDLhl.png
+[createListing]: /docs/createListing.png
+[properties]: /docs/properties.png
+[properties]: /docs/properties.png
+[webApp_README.md]: /LightBnB/LightBnB_WebApp-master/README.md
