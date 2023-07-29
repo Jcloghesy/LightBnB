@@ -8,7 +8,11 @@ The application allows a homeowners to advertise and book
 rentals and allows vacationer to easily find an book the perfect place to stay while on vacation. 
 
 
-[properties][properties]
+***Properties Main***
+[properties][properties] 
+
+
+***Create Listing***
 [createListing][createListing]
 
 This project is built on a template supplied by [lighthouse labs][Lighthouse Labs - GitHub]
@@ -28,9 +32,7 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
     - [TECHNOLOGIES EMPLOYED](#technologies-employed)
     - [TECHNOLOGIES EMPLOYED](#technologies-employed-1)
     - [ENTITY RELATIONSHIP DIAGRAMS (ERDs): Created \& Supplied](#entity-relationship-diagrams-erds-created--supplied)
-    - [FILE AND FOLDERS](#file-and-folders)
-  - [FILE AND FOLDERS](#file-and-folders-1)
-  - [FILE AND FOLDERS](#file-and-folders-2)
+  - [FILE AND FOLDERS](#file-and-folders)
 - [properties: /docs/properties.png](#properties-docspropertiespng)
 
 &nbsp;
@@ -101,7 +103,6 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
 ***[back to top](#table-of-content)***
 &nbsp;
 
-<<<<<<< d1e429f1d78342704d1d5b29d1449106546ee8ab
 
 ### TECHNOLOGIES EMPLOYED
     
@@ -129,14 +130,6 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
 
 ***[back to top](#table-of-content)***
 &nbsp;
-
-
-### FILE AND FOLDERS 
-
-## FILE AND FOLDERS 
-=======
->>>>>>> Code Organization: Document Applications Setup | Include screen shots
-
 
 ## FILE AND FOLDERS 
 
