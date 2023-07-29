@@ -8,11 +8,15 @@ The application allows a homeowners to advertise and book
 rentals and allows vacationer to easily find an book the perfect place to stay while on vacation. 
 
 
+<<<<<<< Updated upstream
+[properties][properties]
+=======
 ***Properties Main***
 [properties][properties] 
 
 
 ***Create Listing***
+>>>>>>> Stashed changes
 [createListing][createListing]
 
 This project is built on a template supplied by [lighthouse labs][Lighthouse Labs - GitHub]
@@ -23,6 +27,7 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
 
 - [LIGHTBNB PROJECT](#lightbnb-project)
   - [INTRODUCTION](#introduction)
+- [properties](#properties)
   - [TABLE OF CONTENT](#table-of-content)
   - [USAGE](#usage)
     - [INSTALLATION: REPOSITORY \& DEPENDENCIES](#installation-repository--dependencies)
@@ -33,6 +38,8 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
     - [TECHNOLOGIES EMPLOYED](#technologies-employed-1)
     - [ENTITY RELATIONSHIP DIAGRAMS (ERDs): Created \& Supplied](#entity-relationship-diagrams-erds-created--supplied)
   - [FILE AND FOLDERS](#file-and-folders)
+- [properties: /docs/properties.png](#properties-docspropertiespng)
+>>>>>>> Stashed changes
 - [properties: /docs/properties.png](#properties-docspropertiespng)
 
 &nbsp;
