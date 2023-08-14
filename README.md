@@ -7,27 +7,10 @@ allowing both homeowners and vacationers an efficient online platform to manage 
 The application allows a homeowners to advertise and book 
 rentals and allows vacationer to easily find an book the perfect place to stay while on vacation. 
 
-
-<<<<<<< Updated upstream
-[properties][properties]
-=======
-***Properties Main***
-[properties][properties] 
-
-
-***Create Listing***
->>>>>>> Stashed changes
-[createListing][createListing]
-
-This project is built on a template supplied by [lighthouse labs][Lighthouse Labs - GitHub]
-&nbsp;
-
-
 ## TABLE OF CONTENT
 
 - [LIGHTBNB PROJECT](#lightbnb-project)
   - [INTRODUCTION](#introduction)
-- [properties](#properties)
   - [TABLE OF CONTENT](#table-of-content)
   - [USAGE](#usage)
     - [INSTALLATION: REPOSITORY \& DEPENDENCIES](#installation-repository--dependencies)
@@ -35,12 +18,8 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
   - [FEATURES \& FUNCTIONALITY](#features--functionality)
     - [FEATURES](#features)
     - [TECHNOLOGIES EMPLOYED](#technologies-employed)
-    - [TECHNOLOGIES EMPLOYED](#technologies-employed-1)
     - [ENTITY RELATIONSHIP DIAGRAMS (ERDs): Created \& Supplied](#entity-relationship-diagrams-erds-created--supplied)
   - [FILE AND FOLDERS](#file-and-folders)
-- [properties: /docs/properties.png](#properties-docspropertiespng)
->>>>>>> Stashed changes
-- [properties: /docs/properties.png](#properties-docspropertiespng)
 
 &nbsp;
 
@@ -93,21 +72,17 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
        detailed information (type, amenities, location, pricing, availability)
 
 
+***Properties Main***
+[properties][properties] 
+
+
+***Create Listing***
+[createListing][createListing]
+
+This project is built on a template supplied by [lighthouse labs][Lighthouse Labs - GitHub]
 &nbsp;
 
 
-### TECHNOLOGIES EMPLOYED
-    
-| Home Page                     | Repository / Wiki               |
-|  :--:                         |  :--:                           |
-|  [CSS][CSS]                   |  [CSS.W3][CSS.W3]               | <br>
-|  [HTML][HTML]                 |  [HTML.w3][HTML.w3]             | <br>
-|  [JavaScript][JavaScript]     |  [JavaScript.w3][JavaScript.w3] | <br>
-|  [Node.js][node.org]          |  [`Node.js`][node.git]          | <br>
-|  [Express][express.git]       |  [`Express`][express.git]       | <br>
-|  [PostgreSQL][PostgreSQL.org] |  [PostgreSQL][PostgreSQL]       | <br
-
-***[back to top](#table-of-content)***
 &nbsp;
 
 
@@ -230,16 +205,12 @@ This project is built on a template supplied by [lighthouse labs][Lighthouse Lab
    
 <!-- Additional Website Links -->
 [Lighthouse Labs - GitHub]: https://github.com/lighthouse-labs
+[webApp_README.md]: /LightBnB/LightBnB_WebApp-master/README.md
 
 <!-- Images - Screen Captures & Logos, etc  -->
 [properties]: /docs/properties.png
-<<<<<<< d1e429f1d78342704d1d5b29d1449106546ee8ab
 [diagramERDStudent]: /docs/diagramERDStudent.png
 [diagramERDLhl]: /docs/diagramERDLhl.png
 [createListing]: /docs/createListing.png
 [properties]: /docs/properties.png
 [properties]: /docs/properties.png
-=======
-[createListing]: /docs/createListing.png
->>>>>>> Code Organization: Document Applications Setup | Include screen shots
-[webApp_README.md]: /LightBnB/LightBnB_WebApp-master/README.md
